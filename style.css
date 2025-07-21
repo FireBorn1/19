@@ -1,0 +1,114 @@
+.teppa{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    gap: 50px;
+    padding-right: 29px;
+}
+
+* {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  box-sizing: border-box;
+
+  
+}
+.jalla{
+    color: black;
+}
+* > p{
+color: gray;
+}
+.tugma{
+    color: rgb(0, 0, 0);
+    background-color: rgb(169, 174, 184);
+    flex-wrap: wrap;
+    display: flex;
+    margin: auto;
+    padding: 15px;
+    border-radius: 40px;
+    margin-left: 120px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 1px solid rgb(160, 159, 159);
+ 
+}
+.bowlaniv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+
+.matn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  min-width: 250px;
+  gap: 20px;
+  padding-left: 110px;
+  font-size: 140%;
+}
+
+
+.rasm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  max-width: 600px;
+}
+
+.suka {
+  width: 100%;
+  max-width: 100%;
+}
+
+.haha{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.pidr{
+    display: flex;
+    justify-content: center;
+}
+.contr{
+    max-width: 1200px;
+    margin: 0% auto;
+}
+.cards{
+    display: grid;
+    padding-top: 100px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: px;
+    gap: 30px;
+
+
+}
+.card{ 
+    
+    
+    border: 1px solid;
+    border-radius: 25px;
+    padding: 60px;
+    font-size: 130%;
+    background-color: rgb(223, 224, 228);
+    
+}
+
+.tugma:hover{
+  background-color: rgb(51, 77, 170);
+  color: white;
+}
+.card:hover{
+  background-color: rgb(51, 77, 170)
+}
+.card h2:hover{
+  color: white;
+}
